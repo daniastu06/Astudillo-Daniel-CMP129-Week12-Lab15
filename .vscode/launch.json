@@ -1,11 +1,29 @@
 {
-  "version": "0.2.0",
+"version": "0.2.0",
   "configurations": [
     {
       "type": "java",
-      "name": "Run JavaFX Lab (any class name)",
+      "name": "CalculatorApp",
       "request": "launch",
-      "mainClass": "LabLauncher"
+      "mainClass": "CalculatorApp",
+      "projectName": "cmp129-week12-lab01"
+    },
+    {
+      "type": "java",
+      "name": "SumCalculator",
+      "request": "launch",
+      "mainClass": "SumCalculator",
+      "projectName": "cmp129-week12-lab01"
+    },
+    {
+      "type": "java",
+      "name": "Run JavaFX Calculator (SDK, no Maven)",
+      "request": "launch",
+      "mainClass": "SumCalculator",
+      "vmArgs": "--module-path \"C:\\Users\\astudillori.danie\\Downloads\\openjfx-27.0.1_windows-x64_bin-sdk\\javafx-sdk-27.0.1\\lib\" --add-modules javafx.controls"
     }
   ]
 }
+
+
+
